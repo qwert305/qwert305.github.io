@@ -27,8 +27,14 @@
    for (i = 0; i < 23; i++) {
     console.log("gotta git funny "+i);
    }
+   
+   function changeHeader() {
+      var heading = document.querySelector ("p");
+    heading.innerHTML = " - .innerHTML";
+   }
+   
   </script>
-  
+  <button onclick = "changeHeader()">Press Me! </button>
    </head>
    <body>
       <img src="http://s3.amazonaws.com/oratv-admin-wysiwyg/2016/08/05/12118641_840826566040580_6619470297118241207_n.jpg">
