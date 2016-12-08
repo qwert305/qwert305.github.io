@@ -29,8 +29,10 @@
    }
   
   
-    
-   
+     function addHeader() {
+      var p = document.querySelector("p");
+      p.innerHTML = '''<iframe width="560" height="315" src="https://www.youtube.com/embed/19YXurfyy0k" frameborder="0" allowfullscreen></iframe>''';
+    }   
   </script>
   
    </head>
@@ -106,10 +108,7 @@
      <p>
       under construction
       </p>
-    function addHeader() {
-      var p = document.querySelector("p");
-      p.innerHTML = '''<iframe width="560" height="315" src="https://www.youtube.com/embed/19YXurfyy0k" frameborder="0" allowfullscreen></iframe>''';
-    }
+
     
        <button onclick = "addHeader()">Press Me At Your Own Risk! </button>
       </body>
